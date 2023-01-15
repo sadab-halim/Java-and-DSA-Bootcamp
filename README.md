@@ -67,4 +67,4 @@ class CollectionDemo {
 - Increases program speed and quality
 
 ### Hierarchy of the Collection Framework
-<img src = "/images/Hierachy-Collection-Framework.png" width = "700px">
+<img src = "/images/Hierachy-Collection-Framework.png" width = "800px">
