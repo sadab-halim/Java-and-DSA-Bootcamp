@@ -67,4 +67,8 @@ class CollectionDemo {
 - Increases program speed and quality
 
 ### Hierarchy of the Collection Framework
-<img src = "/images/Hierachy-Collection-Framework.png" width = "800px">
+<img src = "/images/Hierachy-Collection-Framework.png" width = "800px"> 
+<br/>
+- **Class:** is a user-defined blueprint or prototype from which objects are created. It represents the set of properties or methods that are common to all objects of one type.
+- **Interface:** Like a class, an interface can have methods and variables, but the methods declared in an interface are by default abstract (only method signature, no body). Interfaces specify what a class must do and not how. It is the blueprint of the class.
+
