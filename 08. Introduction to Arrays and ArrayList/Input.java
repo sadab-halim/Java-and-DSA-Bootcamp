@@ -1,8 +1,8 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Input {
   public static void main(String[] args){
-    Scanner sc = new Scanner(System.in);
+    Scanner in = new Scanner(System.in);
 
     // array of primitives.
     int[] arr = new int[5];
@@ -23,8 +23,8 @@ public class Input {
     }
   
     //using for each loop
-    for(int numL arr){  // for every element in the array, print the array
-      System.out.orint(num + " ");  // here, num represents element of the array
+    for(int num: arr){  // for every element in the array, print the array
+      System.out.print(num + " ");  // here, num represents element of the array
 
       System.out.println(arr[5]);  //index out of bound error
 
@@ -39,6 +39,12 @@ public class Input {
       }
 
       System.out.println(Arrays.toString(str));
+
+      //modify
+      str[1] = "Hi";
+      System.out.println(Arrays.toString(str));
+
+      
     }
   }
 }

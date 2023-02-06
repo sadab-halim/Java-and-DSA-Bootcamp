@@ -50,4 +50,7 @@ int num = null; // Error
 ## Internal working of object
 String[] arr = new String[5];
 - All the objects are stored in heap memory
-- 
+
+**NOTE:**
+- Strings are immutable in Java
+- Arrays are mutable in Java
